@@ -8,3 +8,6 @@ def to_camel_case(text):
 
 def isBlank(myString):
     return not (myString and myString.strip())
+
+def upper(txt):
+    return txt.upper()

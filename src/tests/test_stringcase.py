@@ -27,3 +27,11 @@ class TestStringMethods(unittest.TestCase):
         from main.stringcase import isBlank
         result = isBlank("Beeru")
         self.assertFalse(result)
+
+    def test_c(self):
+        from main.stringcase import upper
+        result = upper("Beeru")
+        expected_result = "BEERU"
+        self.assertEqual( expected_result , result)
+
+
