@@ -1,8 +1,5 @@
 import pytest
-# import unittest
 
-
-# class MyTestCase(unittest.TestCase):
 def test_minNumber():
     from main.listfunction import minNumber
     result=minNumber([1,5,3,0])
