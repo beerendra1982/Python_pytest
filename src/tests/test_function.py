@@ -1,7 +1,6 @@
 # import unittest
 import pytest
 
-# class TestFunction(unittest.TestCase):
 def test_average():
     from main.function import average
     result = average(10,20)

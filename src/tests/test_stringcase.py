@@ -1,9 +1,5 @@
 import pytest
 
-
-
-# class TestStringMethods(unittest.TestCase):
-
 def test_camelcase():
     from main.stringcase import to_camel_case
     expected_result = "BeeruIAmHere"
