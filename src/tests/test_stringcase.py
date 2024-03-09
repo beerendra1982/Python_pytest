@@ -1,37 +1,37 @@
 import pytest
-import unittest
 
 
-class TestStringMethods(unittest.TestCase):
 
-    def test_camelcase(self):
-        from main.stringcase import to_camel_case
-        expected_result = "BeeruIAmHere"
-        result = to_camel_case("Beeru i am here")
-        self.assertEqual( expected_result , result)
+# class TestStringMethods(unittest.TestCase):
 
-    def test_camelcaseNegative(self):
-        from main.stringcase import to_camel_case
-        expected_result = ""
-        result = to_camel_case("")
-        self.assertEqual( expected_result , result)
+def test_camelcase():
+    from main.stringcase import to_camel_case
+    expected_result = "BeeruIAmHere"
+    result = to_camel_case("Beeru i am here")
+    assert( expected_result , result)
 
-
-    def test_isBlanlTrue(self):
-        from main.stringcase import isBlank
-        result = isBlank("")
-        self.assertTrue(result)
+def test_camelcaseNegative():
+    from main.stringcase import to_camel_case
+    expected_result = ""
+    result = to_camel_case("")
+    assert( expected_result , result)
 
 
-    def test_isBlanlFalse(self):
-        from main.stringcase import isBlank
-        result = isBlank("Beeru")
-        self.assertFalse(result)
+def test_isBlanlTrue():
+    from main.stringcase import isBlank
+    result = isBlank("")
+    assert(result,True)
 
-    def test_c(self):
-        from main.stringcase import upper
-        result = upper("Beeru")
-        expected_result = "BEERU"
-        self.assertEqual( expected_result , result)
+
+def test_isBlanlFalse():
+    from main.stringcase import isBlank
+    result = isBlank("Beeru")
+    assert(result,True)
+
+def test_c():
+    from main.stringcase import upper
+    result = upper("Beeru")
+    expected_result = "BEERU"
+    assert( expected_result , result)
 
 
