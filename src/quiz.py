@@ -8,7 +8,7 @@ def validation(num):
     else:
         return "not valid number"
 
-def quize():
+def quiz():
     try:
         num=input("Enter any number : ")
         msg=validation(int(num))
