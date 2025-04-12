@@ -17,4 +17,3 @@ python3 -m coverage report -m
 # run below mentioned method for test
 python3 -c "import quize;quize.quize()" 
 python3 -c "import gamequiz;gamequiz.quiz()"
-
