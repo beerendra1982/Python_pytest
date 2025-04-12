@@ -7,4 +7,4 @@ def test():
             n=False
         i=i-1
 
-# test()
+test()
