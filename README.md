@@ -2,7 +2,7 @@
 
 # Execute below mentioned command to run the test case
 pytest
-
+pytest test_game.py
 # Execute below mentioned command to run the test case
 pytest --cov
 
@@ -16,3 +16,5 @@ python3 -m coverage report -m
 
 # run below mentioned method for test
 python3 -c "import quize;quize.quize()" 
+python3 -c "import gamequiz;gamequiz.quiz()"
+
