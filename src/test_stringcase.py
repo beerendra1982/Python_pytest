@@ -31,4 +31,12 @@ class test_stringcase(unittest.TestCase):
         expected_result = "BEERU"
         assert( expected_result , result)
 
+    def test_stringslice(self):
+        from stringcase import stringslice
+        result = stringslice("Beeru",1)
+        expected_result = "BEERU"
+        print( result)
+        # assert( expected_result , result)
+
+
 

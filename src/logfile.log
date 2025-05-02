@@ -1,15 +1,9 @@
-2025-04-19 20:08:58,385  * Debugger is active!
-2025-04-19 20:08:58,393  * Debugger PIN: 123-138-448
-2025-04-19 20:09:09,166 Reading data from csv file
-2025-04-19 20:09:09,181 Data from csv file
-2025-04-19 20:09:09,182 127.0.0.1 - - [19/Apr/2025 20:09:09] "GET /empdetails HTTP/1.1" 200 -
-2025-04-19 20:09:12,963 127.0.0.1 - - [19/Apr/2025 20:09:12] "[33mGET /empdetails1 HTTP/1.1[0m" 404 -
-2025-04-19 20:09:16,023 Reading data from csv file
-2025-04-19 20:09:16,029 Data from csv file
-2025-04-19 20:09:16,030 127.0.0.1 - - [19/Apr/2025 20:09:16] "GET /empdetails HTTP/1.1" 200 -
-2025-04-19 20:09:41,404 Reading data from csv file
-2025-04-19 20:09:41,417 Data from csv file
-2025-04-19 20:09:41,418 127.0.0.1 - - [19/Apr/2025 20:09:41] "GET /empdetails HTTP/1.1" 200 -
-2025-04-19 20:09:49,887 Reading data from csv file
-2025-04-19 20:09:49,889 Data from csv file
-2025-04-19 20:09:49,890 127.0.0.1 - - [19/Apr/2025 20:09:49] "GET /empdetails HTTP/1.1" 200 -
+2025-04-19 20:21:32,156  * Debugger is active!
+2025-04-19 20:21:32,173  * Debugger PIN: 123-138-448
+2025-04-19 20:22:47,879 Reading data from csv file
+2025-04-19 20:22:47,892 Data from csv file
+2025-04-19 20:22:47,892 127.0.0.1 - - [19/Apr/2025 20:22:47] "GET /empdetails HTTP/1.1" 200 -
+2025-04-19 20:25:20,076 127.0.0.1 - - [19/Apr/2025 20:25:20] "[33mGET /empdetails3 HTTP/1.1[0m" 404 -
+2025-04-19 20:25:37,801 Reading data from csv file
+2025-04-19 20:25:37,806 Data from csv file
+2025-04-19 20:25:37,807 127.0.0.1 - - [19/Apr/2025 20:25:37] "GET /empdetails HTTP/1.1" 200 -

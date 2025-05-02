@@ -12,5 +12,11 @@ def isBlank(myString):
 def upper(txt):
     return txt.upper()
 
-
+def stringslice(myString, test):
+    if(test==1):    
+        return myString[:2]
+    elif(test==2):
+        return myString[2:4]
+    else:
+        return myString[0:] 
 
